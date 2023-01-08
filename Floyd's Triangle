@@ -1,0 +1,30 @@
+public class Main
+{
+	public static void main(String[] args) {
+	      
+	
+	for(int row=1;row<=6;row++){
+	    
+	    for(int col=1;col<=row;col++){
+	      
+	        System.out.print("* ");
+	    }
+	    for(int k=1;k<=7-row;k++){
+	        System.out.print(1+" ");
+	    }
+	    
+	    System.out.println();
+	}
+	}
+}
+
+
+
+Output:▶
+
+* 1 1 1 1 1 1 
+* * 1 1 1 1 1 
+* * * 1 1 1 1 
+* * * * 1 1 1 
+* * * * * 1 1 
+* * * * * * 1 
